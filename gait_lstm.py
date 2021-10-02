@@ -35,7 +35,7 @@ MODEL_PATH = FLAGS.model_path
 
 TRAIN_FILES = './datasets/Training.csv'
 EVALUATE_FILES = './datasets/Evaluating.csv'
-PREDICT_FILES = './datasets/Subject_1.csv'
+PREDICT_FILES = './datasets/Predict_Subject_1.csv'
 
 def make_folder(time, root=""):
     path = root + "%04d-%02d-%02d_%02d_%02d_%02d" % (
